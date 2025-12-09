@@ -13,7 +13,7 @@ void runRightAttackSequence()
   case 1:
     controlMotors("right", 200);
     if (millis() - autoStepStart >= 500)
-    { 
+    {
       autoStep++;
       autoStepStart = millis();
     }
@@ -22,7 +22,7 @@ void runRightAttackSequence()
   case 2:
     controlMotors("forward", 200);
     if (millis() - autoStepStart >= 400)
-    { 
+    {
       autoStep++;
       autoStepStart = millis();
     }
@@ -68,4 +68,10 @@ void runRightAttackSequence()
     autoMode = false;
     break;
   }
+}
+
+void loop_predefined_behaviours()
+{
+  if (autoMode)
+    runRightAttackSequence();
 }

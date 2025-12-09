@@ -1,7 +1,8 @@
 #ifndef CONTROL_PAGE_H
 #define CONTROL_PAGE_H
 
-#include <WiFi.h>
+#include <WString.h>
 
 String getControlPage();
+
 #endif

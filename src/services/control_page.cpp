@@ -1,4 +1,4 @@
-#include <WiFi.h>
+#include <WString.h>
 #include "control_page.h"
 
 String getControlPage() {

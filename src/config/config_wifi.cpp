@@ -1,5 +1,5 @@
 #include <WiFi.h>
-#include "wifi_controller.h"
+#include "wifi_config.h"
 
 void setup_access_point()
 {

@@ -1,6 +1,7 @@
-#include "led_controller.h"
 #include <esp32-hal-gpio.h>
+#include "led_controller.h"
 #include "global_state.h"
+#include "esp32_config.h"
 
 void turn_on(int led_port)
 {

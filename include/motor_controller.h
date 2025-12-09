@@ -1,7 +1,7 @@
 #ifndef MOTOR_CONTROLLER_H
 #define MOTOR_CONTROLLER_H
 
-#include <WiFi.h>
+#include <WString.h>
 
 void controlMotors(String direction, int speed);
 void stopMotors();

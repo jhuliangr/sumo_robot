@@ -1,14 +1,11 @@
-
-#include <WebServer.h>
-#include <WebSocketsServer.h>
-#include "global_state.h"
-#include "motor_controller.h"
-#include "websocket_handler.h"
 #include "predefined_behaviours.h"
+#include "websocket_handler.h"
+#include "motor_controller.h"
 #include "led_controller.h"
-#include "http_server.h"
-#include "wifi_controller.h"
 #include "esp32_config.h"
+#include "global_state.h"
+#include "http_server.h"
+#include "wifi_config.h"
 
 void setup()
 {
@@ -26,7 +23,6 @@ void loop()
   led_loop();
   webSocket.loop();
   server.handleClient();
-  if (autoMode)
-    runRightAttackSequence();
+  loop_predefined_behaviours();
   safety_stop();
 }
