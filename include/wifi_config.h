@@ -1,6 +1,3 @@
-#ifndef WIFI_CONTROLLER_H
-#define WIFI_CONTROLLER_H
+#pragma once
 
 void setup_access_point();
-
-#endif

@@ -1,6 +1,6 @@
+#include "websocket_handler.h"
 #include "global_state.h"
 #include "motor_controller.h"
-#include "websocket_handler.h"
 
 void webSocketEvent(uint8_t num, WStype_t type, uint8_t *payload, size_t length)
 {

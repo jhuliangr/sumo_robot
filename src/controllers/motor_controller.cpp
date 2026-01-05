@@ -1,6 +1,6 @@
+#include "motor_controller.h"
 #include <Arduino.h>
 #include "global_state.h"
-#include "motor_controller.h"
 #include "esp32_config.h"
 
 void controlMotors(String direction, int speed)

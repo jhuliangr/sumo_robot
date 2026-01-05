@@ -1,6 +1,6 @@
+#include "global_state.h"
 #include <WebServer.h>
 #include <WebSocketsServer.h>
-#include "global_state.h"
 
 int redOn = 1000;
 int greenOn = 1000;

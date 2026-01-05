@@ -1,6 +1,3 @@
-#ifndef LED_CONTROLLER_H
-#define LED_CONTROLLER_H
+#pragma once
 
 void led_loop();
-
-#endif

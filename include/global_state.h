@@ -1,5 +1,4 @@
-#ifndef GLOBAL_STATE_H
-#define GLOBAL_STATE_H
+#pragma once
 
 #include <WebServer.h>
 #include <WebSocketsServer.h>
@@ -11,7 +10,7 @@ extern bool autoMode;
 extern uint8_t autoStep;
 extern unsigned long autoStepStart;
 
-extern const int PWM_FREQ;    // 1kHz
+extern const int PWM_FREQ;       // 1kHz
 extern const int PWM_RESOLUTION; // 8-bit (0-255)
 
 extern WebServer server;
@@ -22,5 +21,3 @@ extern String currentDirection;
 extern bool motorsEnabled;
 extern unsigned long lastCommandTime;
 extern const unsigned long SAFETY_TIMEOUT;
-
-#endif

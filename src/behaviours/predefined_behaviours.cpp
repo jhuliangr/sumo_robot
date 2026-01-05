@@ -1,6 +1,6 @@
+#include "predefined_behaviours.h"
 #include "global_state.h"
 #include "motor_controller.h"
-#include "predefined_behaviours.h"
 
 void runRightAttackSequence()
 {

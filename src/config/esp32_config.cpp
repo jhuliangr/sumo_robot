@@ -1,6 +1,6 @@
-#include "esp32-hal-gpio.h"
-#include "global_state.h"
 #include "esp32_config.h"
+#include <esp32-hal-gpio.h>
+#include "global_state.h"
 
 void config_esp32()
 {

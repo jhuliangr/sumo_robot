@@ -1,5 +1,5 @@
-#include <WString.h>
 #include "control_page.h"
+#include <WString.h>
 
 String getControlPage() {
   String html = R"rawliteral(

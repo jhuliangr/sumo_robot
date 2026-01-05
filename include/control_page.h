@@ -1,8 +1,4 @@
-#ifndef CONTROL_PAGE_H
-#define CONTROL_PAGE_H
-
+#pragma once
 #include <WString.h>
 
 String getControlPage();
-
-#endif

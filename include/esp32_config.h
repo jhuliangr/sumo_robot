@@ -1,5 +1,4 @@
-#ifndef ESP32_CONFIG_H
-#define ESP32_CONFIG_H
+#pragma once
 
 #define AIN1 27
 #define AIN2 14
@@ -12,5 +11,3 @@
 #define GREEN_LED 4
 
 void config_esp32();
-
-#endif

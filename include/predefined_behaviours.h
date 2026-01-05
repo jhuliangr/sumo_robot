@@ -1,6 +1,3 @@
-#ifndef PREDEFINED_BEHAVIOURS_H
-#define PREDEFINED_BEHAVIOURS_H
+#pragma once
 
 void loop_predefined_behaviours();
-
-#endif

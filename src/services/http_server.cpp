@@ -1,3 +1,4 @@
+#include "http_server.h"
 #include "global_state.h"
 #include "control_page.h"
 
